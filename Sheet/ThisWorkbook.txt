@@ -1,0 +1,8 @@
+' ThisWorkbook Module
+
+Private Sub Workbook_Open()
+    ' Call the reset procedure from A3_Datavalidation module
+    Call A3_Datavalidation.ResetValidationHelper
+    Sheet_helper.Cells.ClearContents ' Clear all content on Sheet_helper
+End Sub
+

@@ -1,0 +1,39 @@
+																																	
+	Application			Model			SOP			QCP			IQC			QR			CP-HP			BoxLBL			PRO			Checksheet			DOE		
+	Application	Short Name		Application	Model		Application	SOP		Application	Model		Application	Model		Application	Model		Application	Model		Application	Model		Application	Model		Application	Check sheet		Application	Model	Line/ Machine
+	Common	COM		Mini Cell	Fresh6 L		Mini Cell	Side tape		Mini Cell	QCP/MPCP		Mini Cell	Cell - 60%		Mini Cell	Cell (60%)		Mini Cell	HP (60%)		Mini Cell	60%		Mini Cell	60%		Mini Cell	Jobchange		Mini Cell	Leak test	Leak test
+	Tablet	TAB		Mini Cell	Wise6 L		Mini Cell	Attach bonding tape		xEV & LEV	PMP		Mini Cell	Cell - 30%		Mini Cell	Cell (30%)		Mini Cell	HP (30%)		Mini Cell	30%		Mini Cell	30%		Tablet	Jobchange		Mini Cell	Laser	u
+	Mini Cell	WEA		Mini Cell	ATTIC		Mini Cell	Terrace bending		Common	QCP - COM		Mini Cell	Side tape		Mini Cell	Side tape		Tablet	HP (60%)		Tablet	60%		Tablet	60%		xEV & LEV	Jobchange		Mini Cell	Laser	b
+	Note-PC	NPC		Mini Cell	FRIDAY		Mini Cell	Pad Printing 		Tablet	QCP - TAB		Mini Cell	Bonding tape		Mini Cell	Bonding tape		Tablet	HP (30%)		Tablet	30%		Tablet	30%		Common	Checksheet - COM		Mini Cell	Laser	j
+	Power tool	POW		Mini Cell	GALILEO L		Mini Cell	Leak test		Mini Cell	QCP - WEA		Mini Cell	PCM		Mini Cell	PCM		Tablet	CP (30%)		Common	BoxLBL - COM		Common	PRO - COM		Tablet	Checksheet - TAB		Mini Cell	Laser	e
+	HHP pouch	HHP		Mini Cell	GALILEO S		Mini Cell	Tab cutting		Note-PC	QCP - NPC		Mini Cell	Top tape		Mini Cell	Top tape		Tablet	CP (60%)		Tablet	BoxLBL - TAB		Tablet	PRO - TAB		Mini Cell	Checksheet - WEA		Mini Cell	Laser	f
+	New Application	N/A		Mini Cell	RENAISSANCE L		Mini Cell	Insert cell & PCM		Power tool	QCP - POW		xEV & LEV	Cell		xEV & LEV	Cell		xEV & LEV	HP		Mini Cell	BoxLBL - WEA		Mini Cell	PRO - WEA		Note-PC	Checksheet - NPC		Mini Cell	Laser	c
+	xEV & LEV	xEV		Mini Cell	RENAISSANCE S		Mini Cell	Laser welding		HHP pouch	QCP - HHP		Common	IQC - COM		Common	QR - Common		Common	CP-HP - COM		Note-PC	BoxLBL - NPC		Note-PC	PRO - NPC		Power tool	Checksheet - POW		Mini Cell	Pad print	Auto
+	Coin	COI		Mini Cell	Wise L		Mini Cell	Welding check + Bending Ni-Tab		New Application	QCP - N/A		Tablet	IQC - TAB		Tablet	QR - Tablet		Tablet	CP-HP - TAB		Power tool	BoxLBL - POW		Power tool	PRO - POW		HHP pouch	Checksheet - HHP		Mini Cell	Pad print	#3
+				Mini Cell	Wise S		Mini Cell	Remove liner PCM tape		xEV & LEV	QCP - xEV		Mini Cell	IQC - WEA		Mini Cell	QR - Mini Cell		Mini Cell	CP-HP - WEA		HHP pouch	BoxLBL - HHP		HHP pouch	PRO - HHP		New Application	Checksheet - N/A		xEV & LEV	Wire bonding	
+				Mini Cell	NOBLESSE L		Mini Cell	Bending PCM + Attach Top tape		Coin	QCP - COI		Note-PC	IQC - NPC		Note-PC	QR - Note-PC		Note-PC	CP-HP - NPC		New Application	BoxLBL - N/A		New Application	PRO - N/A		xEV & LEV	Checksheet - xEV		xEV & LEV	Leak test	
+				Mini Cell	Zenith		Mini Cell	Bending FPCB					Power tool	IQC - POW		Power tool	QR - Power tool		Power tool	CP-HP - POW		xEV & LEV	BoxLBL - xEV		xEV & LEV	PRO - xEV		Coin	Checksheet - COI		Tablet	Leak test	
+				Mini Cell	Zenith PMP		Mini Cell	Pack thickness check					HHP pouch	IQC - HHP		HHP pouch	QR - HHP pouch		HHP pouch	CP-HP - HHP		Coin	BoxLBL - COI		Coin	PRO - COI					Tablet	Laser	
+				Mini Cell	Heart S		Mini Cell	Barcode printing					New Application	IQC - N/A		New Application	QR - New Application		New Application	CP-HP - N/A											Tablet	Pad print	
+				Mini Cell	Heart L		Mini Cell	Function check					xEV & LEV	IQC - xEV		xEV & LEV	QR - xEV & LEV		xEV & LEV	CP-HP - xEV											Common	DOE - COM	
+				Mini Cell	Heart PRO		Mini Cell	Appearance check					Coin	IQC - COI		Coin	QR - Coin		Coin	CP-HP - COI											Tablet	DOE - TAB	
+				Mini Cell	Fresh8 L		Mini Cell	X-ray																							Mini Cell	DOE - WEA	
+				Mini Cell	Wise8 L		Mini Cell	Boxing																							Note-PC	DOE - NPC	
+				xEV & LEV	Nap21		xEV & LEV	Insert cell																							Power tool	DOE - POW	
+				xEV & LEV	Nap22		xEV & LEV	Barcode printing																							HHP pouch	DOE - HHP	
+				xEV & LEV	Gen 3.0		xEV & LEV	Wire bonding																							New Application	DOE - N/A	
+				xEV & LEV	Gen 3.1		xEV & LEV	Boxing																							xEV & LEV	DOE - xEV	
+				Common	Model - Common		Common	Common - SOP																							Coin	DOE - COI	
+				Note-PC	Model - Note-PC		Note-PC	Note-PC - SOP																									
+				Common	Model - Common		Power tool	Power tool - SOP																									
+				Note-PC	Model - Note-PC		HHP pouch	HHP pouch - SOP																									
+				Power tool	Model - Power tool		New Application	Bắt vít																									
+				HHP pouch	Model - HHP pouch		xEV & LEV	xEV & LEV - SOP																									
+				New Application	Model - New Application		Coin	Coin - SOP																									
+				xEV & LEV	Model - xEV & LEV		Common	COM - SOP																									
+				Coin	Model - Coin		Tablet	TAB - SOP																									
+				Tablet	Tab S10 FE																												
+				Tablet	Tab S11																												
+				Tablet	Tab S9																												
+				Tablet	Tab S9+																												
+				Tablet	Tab S11 Basic																												

@@ -1,0 +1,34 @@
+																
+																
+	Enter filter conditions (supports * and ?):															
+	Example: Model - "Fresh*" instead "Fresh6 L" & "Fresh 8 L": * for any sequence of characters, ? for any single character															
+																
+	Item	Application	Year	Model												
+	*	Power tool	*	*												
+															Item	Application
+															SOP	Common
+	Item	Application	Year	Model	Content	Name of document	Purpose	Date Creat/Update	Control no	Version	Management code				QCP	Tablet
+	SOP	Power tool	2022	Nap21	Barcode printing		Update		1	1	POW-SOP-22-001-01				IQC	Mini Cell
+	SOP	Power tool	2024	Nap21	Leak test		Update		1	1	POW-SOP-24-001-01				QRC	Note-PC
+	SOP	Power tool	2020	Nap21	Attach bonding tape		Update		1	2	POW-SOP-20-001-02				CHC	Power tool
+	QCP	Power tool	2022	Nap21	-	-	Update		1	1	POW-QCP-22-001-01				BOX	HHP pouch
+	QCP	Power tool	2024	Nap21	-	-	Update		1	1	POW-QCP-24-001-01				PRO	New Application
+	QCP	Power tool	2020	Nap21	-	-	Update		1	1	POW-QCP-20-001-01				C/S	xEV & LEV
+	IQC	Power tool	2022	Nap21	Top tape		Update		1	1	POW-IQC-22-001-01				DOE	Coin
+	IQC	Power tool	2024	Nap21	Side tape		Update		1	1	POW-IQC-24-001-01					
+	IQC	Power tool	2020	Nap21	Side tape		Update		1	1	POW-IQC-20-001-01					
+	QRC	Power tool	2022	Nap21	-		Update		1	1	POW-QRC-22-001-01					
+	QRC	Power tool	2024	Nap21	-		Update		1	1	POW-QRC-24-001-01					
+	QRC	Power tool	2020	Nap21	-		Update		1	1	POW-QRC-20-001-01					
+	CHC	Power tool	2022	Nap21	CP		Update		1	1	POW-CHC-22-001-01					
+	CHC	Power tool	2024	Nap21	HP		Update		1	1	POW-CHC-24-001-01					
+	CHC	Power tool	2020	Nap21	HP		Update		1	1	POW-CHC-20-001-01					
+	LBL	Power tool	2022	Nap21	-		Update		1	1	POW-LBL-22-001-01					
+	LBL	Power tool	2024	Nap21	-		Update		1	1	POW-LBL-24-001-01					
+	LBL	Power tool	2020	Nap21	-		Update		1	1	POW-LBL-20-001-01					
+	PRO	Power tool	2022	Nap21	-		Update		1	1	POW-PRO-22-001-01					
+	PRO	Power tool	2024	Nap21	-		Update		1	1	POW-PRO-24-001-01					
+	PRO	Power tool	2020	Nap21	-		Update		1	1	POW-PRO-20-001-01					
+	C/S	Power tool	2022	Nap21	Jobchange		Update		1	1	POW-C/S-22-001-01					
+	C/S	Power tool	2024	Nap21	Jobchange		Update		1	1	POW-C/S-24-001-01					
+	C/S	Power tool	2020	Nap21	Jobchange		Update		1	1	POW-C/S-20-001-01					

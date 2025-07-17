@@ -1,0 +1,16 @@
+													
+													
+		No.	Item	Application	Year	Model	Line production	Name of document	Purpose	Date Creat/Update	Control no	Version	Management code
+				*	*	*	*		Creat new? Or Update what?				E-D-Line-Year-Control no-Version
+		1	DOE	Mini Cell	2021	Fresh6 L	a		New		1	1	WEA-DOE-a-21-001-01
+		2	DOE	Mini Cell	2021	Hermes	b		New		1	1	WEA-DOE-b-21-001-01
+		3	DOE	Mini Cell	2021	Nap21	b		Update		2	1	WEA-DOE-b-21-002-01
+		4	DOE	Mini Cell	2021	Fresh 8 L	A		Update spec		1	1	WEA-DOE-A-21-001-01
+		5	DOE	Mini Cell	2021	Hermes	A		Update process		2	1	WEA-DOE-A-21-002-01
+		6	DOE	Mini Cell	2021	Nap21	B		Update		1	1	WEA-DOE-B-21-001-01
+		7	DOE	Mini Cell	2022	A26	B		Update		1	1	WEA-DOE-B-22-001-01
+		8	DOE	Mini Cell	2022	Fresh 8 L	b		Update		1	1	WEA-DOE-b-22-001-01
+		9	DOE	Mini Cell	2022	Hermes	B		Update		2	1	WEA-DOE-B-22-002-01
+		10	DOE	Mini Cell	2022	Nap21	b		Update		2	1	WEA-DOE-b-22-002-01
+		11	DOE	Mini Cell	2022	Nap22	B		Update		3	1	WEA-DOE-B-22-003-01
+		12	DOE	Mini Cell	2022	Nap22	b		Update		3	1	WEA-DOE-b-22-003-01

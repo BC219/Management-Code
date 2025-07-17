@@ -1,0 +1,38 @@
+														
+														
+		No.	Item	Application	Year	Model	SOP	Name of document	Purpose	Date Creat/Update	Control no	Version	Management code	
+				*	*	*	*		Creat new? Or Update what?				E-D-Year-Control no-Version	
+		1	SOP	Mini Cell	2021	Fresh6 L	Remove liner PCM tape		New		1	1	WEA-SOP-21-001-01	
+		2	SOP	Note-PC	2022	Hermes	Bending PCM + Attach Top tape		New		1	1	NPC-SOP-22-001-01	
+		3	SOP	Power tool	2022	Nap21	Barcode printing		Update		1	1	POW-SOP-22-001-01	
+		4	SOP	Mini Cell	2022	Fresh 8 L	Welding check + Bending Ni-Tab		Update spec		1	1	WEA-SOP-22-001-01	
+		5	SOP	Note-PC	2022	Hermes	Welding check + Bending Ni-Tab		Update process		2	1	NPC-SOP-22-002-01	
+		6	SOP	Power tool	2024	Nap21	Leak test		Update		1	1	POW-SOP-24-001-01	
+		7	SOP	HHP pouch	2021	A26	Bending FPCB		Update		1	1	HHP-SOP-21-001-01	
+		8	SOP	Mini Cell	2022	Fresh 8 L	Welding check + Bending Ni-Tab		Update		1	2	WEA-SOP-22-001-02	
+		9	SOP	Note-PC	2021	Hermes	Leak test		Update		1	1	NPC-SOP-21-001-01	
+		10	SOP	Power tool	2020	Nap21	Attach bonding tape		Update		1	1	POW-SOP-20-001-01	
+		11	SOP	HHP pouch	2020	Nap22	Attach bonding tape		Update		1	1	HHP-SOP-20-001-01	
+		12	SOP	New Application	2020	Nap22	Tab cutting		Update		1	1	N/A-SOP-20-001-01	
+		13	SOP	HHP pouch	2021	A26	Bending FPCB		Update		1	2	HHP-SOP-21-001-02	
+		14	SOP	Mini Cell	2022	Fresh 8 L	Welding check + Bending Ni-Tab		Update		1	3	WEA-SOP-22-001-03	
+		15	SOP	Note-PC	2021	Hermes	Leak test		Update		1	2	NPC-SOP-21-001-02	
+		16	SOP	Power tool	2020	Nap21	Attach bonding tape		Update		1	2	POW-SOP-20-001-02	
+		17	SOP	HHP pouch	2020	A26	Attach bonding tape		Update		2	1	HHP-SOP-20-002-01	
+		18	SOP	New Application	2020	Nap21	Tab cutting		Update		2	1	N/A-SOP-20-002-01	
+		19	SOP	New Application	2020	Nap21	Tab cutting				2	2	N/A-SOP-20-002-02	
+		20	SOP	New Application	2020	Nap21	Tab cutting				2	3	N/A-SOP-20-002-03	
+		21	SOP	New Application	2020	Nap21	Tab cutting				2	4	N/A-SOP-20-002-04	
+		22	SOP	New Application	2020	Nap21	Laser welding				3	1	N/A-SOP-20-003-01	
+		23	SOP	New Application	2020	Nap21	Laser welding				3	2	N/A-SOP-20-003-02	
+		24	SOP	New Application	2020	Nap21	Laser welding				3	3	N/A-SOP-20-003-03	
+		25	SOP	New Application	2020	Nap21	Laser welding				3	4	N/A-SOP-20-003-04	
+		26	SOP	New Application	2020	Nap21	Laser welding				3	5	N/A-SOP-20-003-05	
+		27	SOP	New Application	2020	Nap21	Tab cutting			19/06/2025	2	5	N/A-SOP-20-002-05	
+		28	SOP	New Application	2020	Nap22	Tab cutting				1	2	N/A-SOP-20-001-02	
+		29	SOP	Mini Cell	2025	Leak test	Pad Printing 				1	1	WEA-SOP-25-001-01	
+		30	SOP	Note-PC	2022	2	2				3	1	NPC-SOP-22-003-01	
+		31	SOP	Note-PC	2020	2	Note-PC - SOP				1	1	NPC-SOP-20-001-01	
+		32	SOP	Mini Cell	2025	Zenith	Terrace bending				2	1	WEA-SOP-25-002-01	
+		33	SOP	New Application	2024	5	New Application - SOP				1	1	N/A-SOP-24-001-01	
+		34	SOP	Mini Cell	2025	Fresh8 L	Side tape	Attach side tape	New	3/07/2025	3	1	WEA-SOP-25-003-01	

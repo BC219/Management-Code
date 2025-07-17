@@ -1,0 +1,86 @@
+Private Sub Worksheet_Change(ByVal Target As Range)
+    ' --- Section 1: Initial Checks and Configuration ---
+    Dim rngDM2 As Range, rngDM3 As Range
+    Dim valDM1 As String
+
+    ' Start debugging log for this run
+    Debug.Print "----------------------------------------------------"
+    Debug.Print "Worksheet_Change event fired at " & Now
+    Debug.Print "Target cell is: " & Target.Address
+
+    ' Exit if more than one cell is changed at once
+    If Target.CountLarge > 1 Then
+        Debug.Print "DEBUG: Exiting because more than one cell was changed."
+        Exit Sub
+    End If
+
+    ' Exit if the change is not in Column E (Column 5) or is in the header (Row 1)
+    If Target.Column <> 5 Or Target.Row < 2 Then
+        Debug.Print "DEBUG: Exiting because change was not in Column E (or was in header)."
+        Exit Sub
+    End If
+    ' --- Section 2: Unprotect Sheet and Handle Errors ---
+    On Error GoTo ErrorHandler
+
+    ' Unprotect the sheet to allow structural changes
+    Debug.Print "DEBUG: Unprotecting sheet..."
+    Me.Unprotect PASSWORD:=SHEET_PASSWORD
+
+    ' --- Section 3: Main Logic ---
+    Application.EnableEvents = False
+    Debug.Print "DEBUG: Events disabled."
+
+    valDM1 = CStr(Target.Value)
+    Debug.Print "DEBUG: Selected DM1 value is: '" & valDM1 & "'"
+
+    Set rngDM2 = Me.Cells(Target.Row, "G")
+    Set rngDM3 = Me.Cells(Target.Row, "H")
+
+    Debug.Print "DEBUG: Clearing previous content and validation..."
+    
+    rngDM2.ClearContents
+    rngDM2.Validation.Delete
+    
+    rngDM3.ClearContents
+    rngDM3.Validation.Delete
+
+    If valDM1 <> "" Then
+        ' Retrieve data and apply validation for DM2 (Column G)
+        Dim dm2List As Variant
+        dm2List = GetValidationList(sheet_data.ListObjects("tbl_model"), valDM1)
+        If Not IsEmpty(dm2List) Then
+            Debug.Print "DEBUG: dm2List content for " & rngDM2.Address & ": " & Join(dm2List, ", ")
+            ApplyValidationFromArray rngDM2, dm2List
+            Debug.Print "DEBUG: Validation list created for " & rngDM2.Address
+        End If
+
+        ' Retrieve data and apply validation for DM3 (Column H)
+        Dim dm3List As Variant
+        dm3List = GetValidationList(sheet_data.ListObjects("tbl_SOP"), valDM1)
+        If Not IsEmpty(dm3List) Then
+            Debug.Print "DEBUG: dm3List content for " & rngDM3.Address & ": " & Join(dm3List, ", ")
+            ApplyValidationFromArray rngDM3, dm3List
+            Debug.Print "DEBUG: Validation list created for " & rngDM3.Address
+        End If
+    End If
+
+' --- Section 4: Cleanup, Re-protect Sheet, and Exit ---
+
+ExitSub:
+    ' Re-protect the sheet before exiting
+    Debug.Print "DEBUG: Re-protecting sheet..."
+    Me.Protect PASSWORD:=SHEET_PASSWORD
+    Application.EnableEvents = True
+    Debug.Print "DEBUG: Events enabled. Sub finished."
+    Debug.Print "===================================================="
+    Exit Sub
+
+ErrorHandler:
+    ' This section runs if an error occurs
+    MsgBox "An error occurred!" & vbCrLf & _
+           "Error Number: " & Err.Number & vbCrLf & _
+           "Description: " & Err.Description, vbCritical, "VBA Runtime Error"
+    Debug.Print "ERROR: " & Err.Number & " - " & Err.Description & " at line: " & Erl
+    ' IMPORTANT: Go to the cleanup section to re-protect the sheet even after an error
+    GoTo ExitSub
+End Sub
